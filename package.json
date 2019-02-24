@@ -1,5 +1,5 @@
 {
-  "name": "check-opentalent",
+  "name": "@littlej/check-opentalent",
   "version": "1.0.0",
   "description": "Une application Node.js pour vérifier l'état des applications et services Opentalent",
   "homepage": "https://github.com/LittleJ/check-opentalent",
