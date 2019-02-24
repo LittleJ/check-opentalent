@@ -35,4 +35,5 @@ check-opentalent
 ## Liens
 
 Github: https://github.com/LittleJ/check-opentalent
-NPM:
+
+NPM: https://www.npmjs.com/package/check-opentalent
