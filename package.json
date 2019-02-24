@@ -1,0 +1,41 @@
+{
+  "name": "check-opentalent",
+  "version": "1.0.0",
+  "description": "Une application Node.js pour vérifier l'état des applications et services Opentalent",
+  "homepage": "https://github.com/LittleJ/check-opentalent",
+  "bugs": "https://github.com/LittleJ/check-opentalent/issues",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/LittleJ/check-opentalent"
+  },
+  "main": "./bin/status.js",
+  "directories": {
+    "bin": "bin",
+    "lib": "lib"
+  },
+  "bin": {
+    "check-opentalent": "./bin/check.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "opentalent",
+    "websites",
+    "softwares"
+  ],
+  "author": {
+    "name" : "Little J",
+    "url" : "https://www.littlej.fr"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "private": true,
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "execution-time": "^1.3.0",
+    "node-emoji": "^1.10.0",
+    "request": "^2.88.0",
+    "round-to": "^3.0.0"
+  }
+}
